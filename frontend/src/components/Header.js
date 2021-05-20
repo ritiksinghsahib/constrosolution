@@ -21,6 +21,7 @@ const Header = () => {
         <div className="container">
           <div className="ht-left">
             <div className="mail-service">
+              <q> <i class="fa fa-phone" ></i>+918002862026</q>
               <a href="mailto:constrosolution26@gmail.com"><i className=" fa fa-envelope"></i>constrosolution26@gmail.com</a>
               {/* <a href="tel:+910000000000"><i className=" fa fa-phone"></i>+910000000000</a> */}
             </div>
@@ -37,14 +38,14 @@ const Header = () => {
       <div className="container">
         <div className="inner-header">
           <div className="row">
-            <div className="col-lg-3 col-md-3">
+            <div className="col-lg-3 col-md-3 col-sm">
               <div className="logo">
                 <Link to="/">
                   <img src={logo} alt="logo" />
                 </Link>
               </div>
             </div>
-            <div className="col-lg-5 col-md-5">
+            <div className="col-lg-5 col-md-5 col-sm">
               <Route render={({ history }) => <SearchBox history={history} />} />
             </div>
             <div className="col-lg-4 text-right col-md-4">
